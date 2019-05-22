@@ -6,7 +6,7 @@
         $fcv=fopen($fcvroute,"r");
         $num=fread($fcv, filesize($fcvroute));
         $num++;
-        echo($num);
+        //echo($num);
         $arrayvisits=str_split($num,1); //Convierte una cadena de texto en array.
         foreach($arrayvisits as $numv)
         {
